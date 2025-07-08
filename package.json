@@ -1,0 +1,19 @@
+{
+  "name": "node_tuitorial",
+  "version": "1.0.0",
+  "description": "it's a nodejs tuitorial by me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon createServer.js"
+  },
+  "author": "Ananya Dutta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.15.2",
+    "nodemon": "^3.1.10"
+  }
+}
